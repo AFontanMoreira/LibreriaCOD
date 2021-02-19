@@ -1,12 +1,12 @@
-package Libreria;
+package libreria;
 
 import javax.swing.*;
 
 public class Visualizar {
-        public void visualizarConsola(String mensaje){
+        public static void visualizarConsola(String mensaje){
             System.out.println(mensaje);
         }
-        public void visualizarVentana(String mensaje){
+        public static void visualizarVentana(String mensaje){
             JOptionPane.showInputDialog(null,mensaje);
         }
 }
